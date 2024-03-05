@@ -1,0 +1,116 @@
+
+XPATH:-
+           a] XPATH stands for 'XML' path.
+           b] Xpath is used to find the location of any element on a webpage using HTML DOM structure.
+           c] It was defined by world wide web consortium(W3C).
+           d] Xpath is used to navigate the nodes in any XML/HTML document.
+
+SYNTAX
+
+         Xpath =//tagname[@Attribute='value']
+
+ There are 2 types of Xpath
+
+ 1]Absolute Xpath
+                   It contains the complete path from the root element of page to the desired element.
+                   It starts with root node.
+                   Any slight change in DOM makes the absolute xpath invalid.
+
+2]Relative Xpath
+                  Relative xpath can start from any node in HTML DOM.
+                  It begins with double forward slash (//)
+                  It is less brittle compared to Absolute Xpath.
+
+XPATH with and & or Operator.
+
+Syntax -
+            Xpath = //tagName[@Attribute = 'value' or @Attribute = 'value']
+
+            Xpath = //tagName[@Attribute = 'value' and @Attribute = 'value']
+
+   -----------------------------------------------------------------------------------------------
+
+Xpath Axes Methods
+
+ It represents the relationship to the context node.
+
+ 1]Parent:-
+            It is used to find the parent of current nod.
+
+   Syntax:-
+
+            Xpath = //tagName[@Attribute='value']//parent::tagName
+
+  2]child:-
+            It selects all children of current node
+
+  Syntax
+
+           Xpath = //tagName[@Attribute='value']//child::tagName
+
+           xpath = //div[@id='nav-xshop']//child::a[5]
+
+   3] Self:-
+              It selects the current node.
+
+    Syntax:-
+
+             Xpath = //tagName[@Attribute='value']//self::tagName
+-----------------------------------------------------------------------------------
+
+DESCENDANTS, DESCENDANTS-OR-SELF
+
+DESCENDANTS:-
+                It selects all the descendants like (Children, GrandChildren) of the context(current) node.
+
+                //tagName[@Attribute='value']//descendant::tagName
+
+                //tagName[@Attribute='value']//descendant::tagName[@Attribute='value']
+
+
+DESCENDANTS-OR-SELF:-
+
+                It selects the context(current) node & all its descendants like (Children, GrandChildren).
+                 If tagName for descendants & self are same.
+
+Syntax:-        //tagName[@Attribute='value']//descendant-or-self::tagName
+
+------------------------------------------------------------------------------------
+
+Ancestor, Ancestor-or-self
+
+Ancestor:-
+            It selects all the ancestors [parent, grandparents, etc] of current node
+
+Syntax:-
+          //tagName[@Attribute='value']//ancestor::tagName
+
+Ancestor-or-self:
+
+                     It selects all the ancestors [parent, grandparents, etc] of current node.
+                     If tagName for ancestors & self are same.
+
+
+Syntax:-
+          //tagName[@Attribute='value']//ancestor-or-self::tagName.
+---------------------------------------------------------------------------------------------
+
+following, following-sibling
+
+following:-
+            It selects all the nodes that appears after the current(Context)node.
+
+Syntax:-
+           //tagName[@Attribute='value']//following::tagName
+
+following-sibling:-
+
+           It selects all the nodes that have the same parent as the context(current) node.
+
+ Syntax:-
+            //tagName[@Attribute='value']//following-sibling::tagName
+
+ -----------------------------------------------------------------------------------------------
+
+
+

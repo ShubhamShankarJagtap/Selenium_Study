@@ -1,0 +1,56 @@
+CSS(Cascading Style Sheet) Selector:-
+
+                 CSS stands for "Cascading Style Sheet."
+
+                 It is a style sheet language which describes the presentation of HTML document.
+
+                 CSS(Cascading Style Sheet) Selectors are used for targeting the HTML elements on a web page.
+
+Syntax:-
+
+          //tagName[Attribute = 'value']
+
+      e.g //input[id='firstname']
+
+
+CSS Selector with id
+
+        tagName#value
+
+    e.g  input#firstname
+
+
+CSS Selector with class
+
+            tagName.value
+
+        e.g  input.firstname
+
+
+CSS with substring
+
+for matching the prefix of substring
+
+                                        input[name^='country_c']
+
+  suffix                                input[name$='country_c']
+
+  subString                             input[name*='country_c']
+
+  ---------------------------------------------------------------------------------------------------------------
+
+  1]Direct Child
+
+                     Child combinator > is used to find the direct child.
+
+   Syntax:  tagName[Attribute = 'value']>tagName[Attribute = 'value']
+
+   Example  select#country>option[value='AU']
+
+    ---------------------------------------------------------------------------------------------------------------
+
+    2] Child / subChild
+
+
+
+

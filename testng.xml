@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="10" name="functional testing">
+   <parameter name="browser" value="edge"/>
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name=""-->
+<!--        </run>-->
+<!--    </groups>-->
+    <classes>
+        <class name="testNG.Demo">
+<!--            <methods>-->
+<!--                <include name="after.*"/>-->
+<!--            </methods>-->
+        </class>
+
+    </classes>
+</test>
+</suite>

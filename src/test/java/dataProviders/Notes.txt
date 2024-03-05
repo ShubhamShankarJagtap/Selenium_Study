@@ -1,0 +1,14 @@
+DataProvider:-
+               They are used to provide the test data to a test method.
+
+               Using dataProvider we can easily pass multiple values into same test case.
+
+               It comes inbuilt in testNG  & popularly used in data driven frameworks.
+
+               @DataProvider annotation has only one attribute called 'name'
+
+               It returns a 2D list of objects.
+
+Syntax:-
+
+           @DataProvider(name = 'name of dataProvider'

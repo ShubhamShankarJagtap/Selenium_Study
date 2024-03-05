@@ -1,0 +1,17 @@
+WebDriver is an interface which extends SearchContext.
+
+RemoteWebDriver is an implemented class for WebDriver & SearchContext interfaces.
+
+Strategies to find the webElements are
+
+1]ID
+2]NAME
+3]CLASS NAME
+4]TAG NAME
+5]CSS SELECTOR
+6]XPATH
+7]LINK TEXT
+8]PARTIAL LINK TEXT
+
+
+
