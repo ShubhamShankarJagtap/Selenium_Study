@@ -11,4 +11,8 @@ DataProvider:-
 
 Syntax:-
 
-           @DataProvider(name = 'name of dataProvider'
+           @DataProvider(name = "name of dataProvider")
+           public Object[][] dataProviderFunc(){
+
+           return new Object[][]{values};
+           }
