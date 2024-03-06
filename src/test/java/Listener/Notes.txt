@@ -1,0 +1,7 @@
+Listeners:-
+             Listeners are used to take action post execution of an particular event.
+
+             There are 12 types of listener.
+
+             Most widely used interface is iTestListener.
+

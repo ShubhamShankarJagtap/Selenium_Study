@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="10" name="functional testing">
-   <parameter name="browser" value="edge"/>
+<suite name="All Test Suite" parallel="classes" thread-count="6">
+
+    <test verbose="10" name="functional testing" >
+        <packages>
+            <package name="com.Interview"></package>
+        </packages>
+<!--   <parameter name="browser" value="edge"/>-->
 <!--    <groups>-->
 <!--        <run>-->
 <!--            <include name=""-->
 <!--        </run>-->
 <!--    </groups>-->
     <classes>
-        <class name="testNG.Demo">
-<!--            <methods>-->
-<!--                <include name="after.*"/>-->
-<!--            </methods>-->
-        </class>
-
+<!--        <class name="com.DropDown.Dropdown">-->
+<!--&lt;!&ndash;            <methods>&ndash;&gt;-->
+<!--&lt;!&ndash;                <include name="after.*"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            </methods>&ndash;&gt;-->
+<!--        </class>-->
     </classes>
 </test>
 </suite>
