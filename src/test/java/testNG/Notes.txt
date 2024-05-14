@@ -24,3 +24,18 @@ Feature:-
             Method with @Test annotation is the method under test.
 
             We use the Assert class to conduct verification operation in TestNG.
+
+
+Assertion:-
+
+             Assertion in TestNG are used to validating the test methods & to verify that expected result & actual result are matched or not.
+
+ 1]Hard Assertion:-
+                    It is an assertion that immediately throws an AssertException when test case is failed.
+
+ 2]Soft Assertion:-
+
+                    It is an assertion that does not throw an exception immediately when assertion fails,
+
+ Syntax:-
+            SoftAssert s = new SoftAssert();

@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="classes" thread-count="6">
-
+    <listeners>
+        <listener class-name="Analyze.Annotation_transformer"></listener>
+    </listeners>
     <test verbose="10" name="functional testing" >
-        <packages>
-            <package name="com.Interview"></package>
-        </packages>
-<!--   <parameter name="browser" value="edge"/>-->
+<!--     <parameter name="browser" value="EDGE"/>-->
+<!--        -->
 <!--    <groups>-->
 <!--        <run>-->
 <!--            <include name=""-->
 <!--        </run>-->
 <!--    </groups>-->
     <classes>
-<!--        <class name="com.DropDown.Dropdown">-->
-<!--&lt;!&ndash;            <methods>&ndash;&gt;-->
-<!--&lt;!&ndash;                <include name="after.*"/>&ndash;&gt;-->
-<!--&lt;!&ndash;            </methods>&ndash;&gt;-->
-<!--        </class>-->
+      <class name="com.DropDown.Dropdown">
+      </class>
     </classes>
 </test>
 </suite>

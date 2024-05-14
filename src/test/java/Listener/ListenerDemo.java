@@ -12,17 +12,17 @@ public class ListenerDemo implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Method" + " " +  result.getTestName() +  " " + " has been successfully executed");
+        System.out.println("Method" + " " +  result.getName()+  " " + " has been successfully executed");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Method" + " " + result.getTestName() +  " " + " has been failed");
+        System.out.println("Method" + " " + result.getName() +  " " + " has been failed");
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        System.out.println("Method" + " " +  result.getTestName() +  " " + " has been skipped");
+        System.out.println("Method" + " " +  result.getName() +  " " + " has been skipped");
     }
 
     @Override

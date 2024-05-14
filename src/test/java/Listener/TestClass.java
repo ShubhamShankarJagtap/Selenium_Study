@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-@Listeners(ListenerDemo.class)
+@Listeners(Listener.ListenerDemo.class)
 public class TestClass {
 
     WebDriver driver;

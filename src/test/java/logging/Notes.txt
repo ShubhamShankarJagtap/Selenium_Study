@@ -1,0 +1,9 @@
+Logging:
+         Logging means way to indicate state of the system at the runtime.
+
+         The log message provides the required information to understand what the application does internally during runtime.
+
+Log4j:-
+         Log4j logging framework is written in java.
+
+         It is an open source logging api for java.
