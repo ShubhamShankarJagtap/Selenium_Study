@@ -51,11 +51,11 @@ public class Broken_Links {
 
                 if (httpURLConnection.getResponseCode()>=300 && httpURLConnection.getResponseCode()<=199){
 
-                    System.out.println(linkText + "is not a broken link...");
+                    System.out.println(linkText + "It is a broken link...");
                 }
 
                 else {
-                    System.out.println(linkText + "is a broken link...");
+                    System.out.println(linkText + "It is not a broken link...");
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);

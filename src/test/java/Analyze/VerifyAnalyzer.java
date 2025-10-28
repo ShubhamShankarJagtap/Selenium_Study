@@ -14,5 +14,4 @@ public class VerifyAnalyzer {
         driver = new FirefoxDriver();
         Assert.fail();
     }
-
 }

@@ -13,7 +13,6 @@ public class ExcelDataWriting {
     @Test
     protected void enter_Data_Into_Excel(){
 
-
         try {
             FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/WriteData.xlsx");
             XSSFWorkbook workbook = new XSSFWorkbook();
